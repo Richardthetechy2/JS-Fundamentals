@@ -2,7 +2,6 @@ const args = (process.argv.slice(2));
 if (!args[0]) {
     console.log("No argument");
 } else {
-    args.forEach(arg => {
-        console.log(arg);
-    });
+    console.log(args.join(" "));
+
 }
