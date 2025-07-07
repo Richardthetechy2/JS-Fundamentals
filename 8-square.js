@@ -1,5 +1,5 @@
 const count = parseInt(process.argv[2])
-const word = "x"
+const word = "X"
 
 if (isNaN(count) | !count) {
     console.log("Missing size");
